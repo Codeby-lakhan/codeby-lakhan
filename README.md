@@ -1,100 +1,12 @@
-<div align="center">
-<svg viewBox="0 0 440 420" width="100%" style="max-width:440px">
-    <defs>
-    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#7C3AED" stop-opacity="0.5"/>
-      <stop offset="0.5" stop-color="#00E5FF" stop-opacity="0.35"/>
-      <stop offset="1" stop-color="#FF6B6B" stop-opacity="0.45"/>
-      <animate attributeName="x1" values="0;1;0" dur="10s" repeatCount="indefinite"/>
-    </linearGradient>
-    <radialGradient id="bgpad" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#16163d" stop-opacity="0.9"/>
-      <stop offset="1" stop-color="#0a0a1f" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0.5"/>
-      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
-    </linearGradient>
-  </defs>
-
-  <ellipse cx="220" cy="400" rx="150" ry="16" fill="#000" opacity="0.35">
-    <animate attributeName="rx" values="150;118;150" dur="4s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.35;0.22;0.35" dur="4s" repeatCount="indefinite"/>
-  </ellipse>
-
-  <g>
-    <animateTransform attributeName="transform" type="translate" values="0 0;0 -14;0 0" dur="4s" repeatCount="indefinite"/>
-
-    <ellipse cx="220" cy="200" rx="170" ry="150" fill="url(#bgpad)"/>
-    <path d="M220.0,150.0 282.0,184.0 220.0,218.0 158.0,184.0Z" fill="url(#glow)"/>
-
-    <g>
-      <animateTransform attributeName="transform" type="rotate" values="0 220 210;0 220 210;360 220 210" dur="14s" repeatCount="indefinite" keyTimes="0;0.5;1"/>
-      <path d="M158.0,184.0 220.0,218.0 282.0,184.0 220.0,150.0Z" fill="none" stroke="#00E5FF" stroke-width="1.2" opacity="0.25"/>
-    </g>
-
-    <g>
-      <path d="M220.0,150.0 240.7,161.3 220.0,172.7 199.3,161.3Z" fill="#FFD500" stroke="#17173a" stroke-width="1.6" stroke-linejoin="round"/>
-      <path d="M240.7,161.3 261.3,172.7 240.7,184.0 220.0,172.7Z" fill="#FFD500" stroke="#17173a" stroke-width="1.6" stroke-linejoin="round"/>
-      <path d="M261.3,172.7 282.0,184.0 261.3,195.3 240.7,184.0Z" fill="#FFD500" stroke="#17173a" stroke-width="1.6" stroke-linejoin="round"/>
-      <path d="M199.3,161.3 220.0,172.7 199.3,184.0 178.7,172.7Z" fill="#FFD500" stroke="#17173a" stroke-width="1.6" stroke-linejoin="round"/>
-      <path d="M220.0,172.7 240.7,184.0 220.0,195.3 199.3,184.0Z" fill="#FFD500" stroke="#17173a" stroke-width="1.6" stroke-linejoin="round"/>
-      <path d="M240.7,184.0 261.3,195.3 240.7,206.7 220.0,195.3Z" fill="#FFD500" stroke="#17173a" stroke-width="1.6" stroke-linejoin="round"/>
-      <path d="M178.7,172.7 199.3,184.0 178.7,195.3 158.0,184.0Z" fill="#FFD500" stroke="#17173a" stroke-width="1.6" stroke-linejoin="round"/>
-      <path d="M199.3,184.0 220.0,195.3 199.3,206.7 178.7,195.3Z" fill="#FFD500" stroke="#17173a" stroke-width="1.6" stroke-linejoin="round"/>
-      <path d="M220.0,195.3 240.7,206.7 220.0,218.0 199.3,206.7Z" fill="#FFD500" stroke="#17173a" stroke-width="1.6" stroke-linejoin="round"/>
-      <path d="M158.0,184.0 178.7,195.3 178.7,260.0 158.0,248.7Z" fill="#C41E3A" stroke="#17173a" stroke-width="1.6" stroke-linejoin="round"/>
-      <path d="M178.7,195.3 199.3,206.7 199.3,271.3 178.7,260.0Z" fill="#C41E3A" stroke="#17173a" stroke-width="1.6" stroke-linejoin="round"/>
-      <path d="M199.3,206.7 220.0,218.0 220.0,282.7 199.3,271.3Z" fill="#C41E3A" stroke="#17173a" stroke-width="1.6" stroke-linejoin="round"/>
-      <path d="M158.0,248.7 178.7,260.0 178.7,324.7 158.0,313.3Z" fill="#C41E3A" stroke="#17173a" stroke-width="1.6" stroke-linejoin="round"/>
-      <path d="M178.7,260.0 199.3,271.3 199.3,336.0 178.7,324.7Z" fill="#C41E3A" stroke="#17173a" stroke-width="1.6" stroke-linejoin="round"/>
-      <path d="M199.3,271.3 220.0,282.7 220.0,347.3 199.3,336.0Z" fill="#C41E3A" stroke="#17173a" stroke-width="1.6" stroke-linejoin="round"/>
-      <path d="M158.0,313.3 178.7,324.7 178.7,389.3 158.0,378.0Z" fill="#C41E3A" stroke="#17173a" stroke-width="1.6" stroke-linejoin="round"/>
-      <path d="M178.7,324.7 199.3,336.0 199.3,400.7 178.7,389.3Z" fill="#C41E3A" stroke="#17173a" stroke-width="1.6" stroke-linejoin="round"/>
-      <path d="M199.3,336.0 220.0,347.3 220.0,412.0 199.3,400.7Z" fill="#C41E3A" stroke="#17173a" stroke-width="1.6" stroke-linejoin="round"/>
-      <path d="M220.0,218.0 240.7,206.7 240.7,271.3 220.0,282.7Z" fill="#0051BA" stroke="#17173a" stroke-width="1.6" stroke-linejoin="round"/>
-      <path d="M240.7,206.7 261.3,195.3 261.3,260.0 240.7,271.3Z" fill="#0051BA" stroke="#17173a" stroke-width="1.6" stroke-linejoin="round"/>
-      <path d="M261.3,195.3 282.0,184.0 282.0,248.7 261.3,260.0Z" fill="#0051BA" stroke="#17173a" stroke-width="1.6" stroke-linejoin="round"/>
-      <path d="M220.0,282.7 240.7,271.3 240.7,336.0 220.0,347.3Z" fill="#0051BA" stroke="#17173a" stroke-width="1.6" stroke-linejoin="round"/>
-      <path d="M240.7,271.3 261.3,260.0 261.3,324.7 240.7,336.0Z" fill="#0051BA" stroke="#17173a" stroke-width="1.6" stroke-linejoin="round"/>
-      <path d="M261.3,260.0 282.0,248.7 282.0,313.3 261.3,324.7Z" fill="#0051BA" stroke="#17173a" stroke-width="1.6" stroke-linejoin="round"/>
-      <path d="M220.0,347.3 240.7,336.0 240.7,400.7 220.0,412.0Z" fill="#0051BA" stroke="#17173a" stroke-width="1.6" stroke-linejoin="round"/>
-      <path d="M240.7,336.0 261.3,324.7 261.3,389.3 240.7,400.7Z" fill="#0051BA" stroke="#17173a" stroke-width="1.6" stroke-linejoin="round"/>
-      <path d="M261.3,324.7 282.0,313.3 282.0,378.0 261.3,389.3Z" fill="#0051BA" stroke="#17173a" stroke-width="1.6" stroke-linejoin="round"/>
-    </g>
-
-    <path d="M158.0,184.0 220.0,150.0 282.0,184.0Z" fill="url(#shine)" opacity="0.22">
-      <animate attributeName="opacity" values="0.22;0.05;0.22" dur="4s" repeatCount="indefinite"/>
-    </path>
-
-    <g transform="translate(220.0,150.0)">
-        <circle r="9" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.9"><animate attributeName="r" values="4;34" dur="3.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0" dur="3.5s" repeatCount="indefinite"/></circle></g>
-    <g transform="translate(220.0,412.0)">
-        <circle r="9" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.9"><animate attributeName="r" values="4;34" dur="3.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0" dur="3.5s" repeatCount="indefinite"/></circle></g>
-    <g transform="translate(282.0,313.3)">
-        <circle r="9" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.9"><animate attributeName="r" values="4;34" dur="3.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0" dur="3.5s" repeatCount="indefinite"/></circle></g>
-  </g>
-
-  <g font-family="Segoe UI, system-ui, sans-serif">
-    <circle cx="60" cy="70" r="3" fill="#00E5FF"><animate attributeName="cy" values="70;40;70" dur="5s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0.2;1" dur="5s" repeatCount="indefinite"/></circle>
-    <circle cx="380" cy="90" r="2.5" fill="#FF6B6B"><animate attributeName="cy" values="90;130;90" dur="6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.2;1;0.2" dur="6s" repeatCount="indefinite"/></circle>
-    <circle cx="395" cy="330" r="3" fill="#A78BFA"><animate attributeName="cy" values="330;300;330" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0.3;1" dur="7s" repeatCount="indefinite"/></circle>
-    <circle cx="45" cy="300" r="2" fill="#00E5FF"><animate attributeName="cy" values="300;330;300" dur="4.5s" repeatCount="indefinite"/></circle>
-    <circle cx="330" cy="40" r="2" fill="#ffffff"><animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite"/></circle>
-    <circle cx="100" cy="50" r="2" fill="#ffffff"><animate attributeName="opacity" values="0;1;0" dur="4s" repeatCount="indefinite"/></circle>
-  </g>
-</svg>
-
-<p>
+<p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3500&pause=500&color=58A6FF&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B+I'm+Lakhan+Singh;Generative+AI+%26+Full-Stack+Engineer;Agentic+AI+%26+RAG+Systems;Building+solutions+that+scale" alt="Typing intro" />
 </p>
 
-<p>
+<p align="center">
   <a href="https://github.com/codeby-lakhan"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
   <a href="https://www.linkedin.com/in/codeby-lakhan"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:lakhansingh9138@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
-</div>
 
 ---
 
