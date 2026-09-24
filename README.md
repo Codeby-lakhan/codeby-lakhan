@@ -173,12 +173,6 @@ I'm a **Generative AI & Full-Stack Engineer** who builds real products with agen
   <img src="https://github-profile-trophy.vercel.app/?username=codeby-lakhan&theme=onestar&row=2&no-frame=false&column=5&margin-w=10&margin-h=10" alt="GitHub Trophies"/>
 </p>
 
-## 🎮 Contribution Snake
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/codeby-lakhan/codeby-lakhan/output/github-contribution-grid-snake.gif" alt="GitHub contribution snake"/>
-</p>
-
 ## 📌 Featured Projects
 
 | Project | Description |
